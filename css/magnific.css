@@ -129,8 +129,8 @@
     border-radius:50%;
     line-height: 38px;
     position: absolute;
-    right: 50%;
-    top: 93%;
+    right: 5px;
+    top: 5px;
     text-decoration: none;
     text-align: center;
     opacity: 0.65;
@@ -143,7 +143,7 @@
     .mfp-close:focus {
       opacity: 1; }
     .mfp-close:active {
-      top: 93%; }
+      top: 5px; }
   
   .mfp-close-btn-in .mfp-close {
     color: #333; }
