@@ -979,6 +979,7 @@ eth - eighth block
         text-align:center;
         text-transform: uppercase;
         padding:30px;
+        margin-top:40px;
         position:relative;
         z-index:10;
     }
@@ -1089,10 +1090,10 @@ eth - eighth block
     //popup
     .m-popup-box{
         position:fixed;
-        top:20px;
-        left:20px;
-        right:20px;
-        bottom:20px;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
         padding-bottom:40px;
         background:#fff;
         overflow:scroll;
