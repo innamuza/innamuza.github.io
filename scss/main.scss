@@ -680,7 +680,7 @@ eth - eighth block
         background-image:url('../imgs/phone.png');
         background-size:cover;
         position:relative;
-        top:4px; right:5px;
+        top:3px; right:5px;
     }
     &__phone{
         text-align:center;
@@ -1380,6 +1380,9 @@ eth - eighth block
         width:100%;
     }
     .m-contact-map{
+        &__frame{
+            box-shadow:0 0 15px rgba(107, 70, 27,.14);
+        }
         @media(min-width:300px) and (max-width:400px){
             height:400px;
         }

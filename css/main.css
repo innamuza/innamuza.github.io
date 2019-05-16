@@ -1031,7 +1031,7 @@ eth - eighth block
     -webkit-background-size: cover;
             background-size: cover;
     position: relative;
-    top: 4px;
+    top: 3px;
     right: 5px; }
   .sev-master__phone {
     text-align: center;
@@ -1725,7 +1725,10 @@ eth - eighth block
 
 @media (min-width: 300px) and (max-width: 599px) {
   .m-contact-container {
-    width: 100%; } }
+    width: 100%; }
+  .m-contact-map__frame {
+    -webkit-box-shadow: 0 0 15px rgba(107, 70, 27, 0.14);
+            box-shadow: 0 0 15px rgba(107, 70, 27, 0.14); } }
 
 @media (min-width: 300px) and (max-width: 599px) and (min-width: 300px) and (max-width: 400px) {
   .m-contact-map {
