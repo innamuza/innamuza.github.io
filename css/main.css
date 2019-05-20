@@ -945,7 +945,7 @@ eth - eighth block
   background: -o-linear-gradient(bottom, #e1e8ec, #fef1f3);
   background: linear-gradient(to top, #e1e8ec, #fef1f3);
   position: relative;
-  z-index: -2; }
+  z-index: 2; }
 
 .sev-title {
   font-family: Poiret, sans-serif;
@@ -1000,8 +1000,9 @@ eth - eighth block
     margin: 20px;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    background-image: url("../imgs/contacts.jpg");
-    background-position: 1px -30px; }
+    background-image: url("../imgs/Diana.png");
+    -webkit-background-size: cover;
+            background-size: cover; }
   .sev-master__name {
     text-align: center;
     font-family: Roboto, sans-serif;

@@ -613,7 +613,7 @@ eth - eighth block
     min-height:800px;
     background:linear-gradient(to top, #e1e8ec,#fef1f3);
     position:relative;
-    z-index:-2;
+    z-index:2;
 }
 .sev-title{
     font-family:$poiret;
@@ -646,8 +646,8 @@ eth - eighth block
         height:200px;   
         margin:20px;
         border-radius:50%;
-        background-image:url('../imgs/contacts.jpg');
-        background-position:1px -30px;
+        background-image:url('../imgs/Diana.png');
+        background-size:cover;
     }
     &__name{
         text-align:center;
